@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #162c59	;
+  color: #E2E8F0	;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #38BDF8;
+}
+
+.about, .skills, .links, .proj {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #38BDF8;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #d1d6de;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffe66d;
+}
+#sudo{
+    font-size: 200%;
+    color: #000000;
+}
+.about{
+    font-size: 150%;
+}
+.ME{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.box{
+    background-color: #1E293B;
+    border-color: #334155	;
+    margin: 10px;
+    border: 2px;
+    border-radius: 5px;
+    padding: auto;
+    
+}
+.parent{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  background-color: black;
+  border-radius: 3px;
+  justify-content: space-evenly ;
+  height: 500px;
+  width: auto;
+  align-content:center ;
+
+}
+.felement{
+  background-color: #ff6b6b;
+  border: 2px solid #ffffff;
+  width: auto;
+  height: auto;
+
+}
+
